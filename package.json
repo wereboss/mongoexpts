@@ -1,0 +1,31 @@
+{
+  "name": "mongoexpts",
+  "version": "1.0.0",
+  "description": "MongoDB + Express + Typescript - this time with proper structuring",
+  "main": "src/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node ./src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wereboss/mongoexpts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wereboss/mongoexpts/issues"
+  },
+  "homepage": "https://github.com/wereboss/mongoexpts#readme",
+  "dependencies": {
+    "@types/body-parser": "^1.17.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0"
+  }
+}
